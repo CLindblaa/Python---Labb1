@@ -11,6 +11,7 @@ while dator_poäng < 3 and spelare_poäng < 3:
     spelare_val = input("\nSten, sax eller påse? ")
 
     print("Datorn valde: " + dator_val)
+    print("Du valde: " + spelare_val)
     
     if dator_val == spelare_val:
         print("Ni valde samma, kör igen!")
